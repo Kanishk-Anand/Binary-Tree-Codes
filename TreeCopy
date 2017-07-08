@@ -72,8 +72,5 @@ int main()
     inorder(root);
     printf("New tree:\n");
     inorder(new);
-    mirror(new);
-    printf("After mirror");
-    inorder(new);
     return 0;
 }
